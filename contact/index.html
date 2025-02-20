@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Projetos </title>
+    <title> Contatos </title>
 </head>
 <body>
-    <h1> Meus projetos</h1>
-    <p> Veja os meus projetos em um perfil do github</p>
+    <h1> Contatos</h1>
+    <p>Entre em contato comigo por email</p>
 
     <!-- Navigation menu: -->
         <nav>
@@ -19,13 +19,24 @@
 =                -->
     
             <!-- Navigation link to this same page i.e. projects/index.html-->
-            <a href="index.html">Projects</a>
+            <a href="../projects/index.html">Projects</a>
                 <!-- Please note that here we do NOT use "../" because index.html is already in the current folder.-->
 
             <!-- Complete the navigation as needed following the structure -->
-            <a href="../contact/index.html">Contatos</a>
+            <a href="index.html">Contatos</a>
 
         </nav>
+
+        <h1> Preencha</h1>
+        <form action="mailto:mariana.rocha@fgv.edu.br" method = "get"> 
+            <label for="email">Email:</label><br>
+            <input name = "email" type = "email"><br>
+            <label for="subject">Assunto:</label><br>
+            <input name = "subject"><br>
+            <label for="body">Texto:</label><br>
+            <textarea name = "body"></textarea>
+            <button>Submit</button>
+        </form>
     
 </body>
 </html>
