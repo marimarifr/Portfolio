@@ -1,4 +1,5 @@
 body {
+  margin-inline: max(1em, (100% - 100ch) / 2);
     font: 100%/1.5 impact;
     background-color: powderblue;
   }
